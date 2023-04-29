@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="img/2771406.ico" type="image/x-icon">
+        <title>Registro</title>
+        <style>
+         *{
+                background-color:antiquewhite;
+            }
+            header{
+                background-color: coral;
+            }
+            nav{
+                background-color: coral;
+            }
+            .navi{
+                background-color: orange;
+                box-sizing: border-box;
+                border: 1px solid;
+            }
+            h1{
+                background-color: coral;
+                text-align: center;
+            }
+            article{
+                margin-bottom: 2rem;
+            }
+            footer{
+                
+                background-color: coral;
+            }
+            div{
+    
+                display: flex;
+            }
+            #foot{
+            display: inline;
+            background-color: coral;
+            margin: 10px;
+            position: relative;
+            bottom: 20px; ;
+           }
+           img{
+            width: 400px;
+            height: 400px;
+            margin-bottom: 100px;
+           }
+           #po{
+            width: 200px;
+           }
+    
+        </style>
+    </head>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="navi">Inicio</a>
+            <a href="Acerca_de.html"class="navi">Acerca de</a>
+            <a href="Contacto.html"class="navi">Contacto</a>
+            <a href="Sucurs.html" class="navi">Sucursales</a>
+            <a href="Registrarse.html" class="navi">Registro</a>
+        </nav>
+        <h1>Milangas Lau</h1>
+        <br>
+    </header>
+    <article>
+        <h1>Registro</h1>
+        <form action="">
+            <div>
+                <label for="nombre">Nombre: </label>
+                <input type="text" name="nombre-ing" id="nom" placeholder="Ingrese su nombre..">
+            </div>
+            <div>
+                <label for="Apellido">Apellido: </label>
+                <input type="text" name="apellido-ing" id="ape" placeholder="Ingrese su apellido..">
+            </div>
+            <div>
+                <label for="email">Correo Electronico: </label>
+                <input type="email" name="Correo" id="correo" placeholder="Ejemplo@gmail.com">
+            </div>
+            <div>
+                <label for="direccion">Dirección: </label>
+                <input type="text" name="direc-ig" id="direccion" placeholder="Thomas Edison 1923">
+            </div>
+            <div>
+                <label for="ciudad">Ciudad: </label>
+                <input type="text" name="ciu-ig" id="Ciudad" placeholder="Quilmes">
+            </div>
+            <div>
+                <label for="codigo postal">Código Postal</label>
+                <input type="number" name="post-ig" id="Codepos" placeholder="1888">
+            </div>
+            <div>
+                <label for="fecha">Fecha de nacimiento</label>
+                <input type="date" name="Born-ig" id="fechanac"0>
+            </div>
+            <div>
+                <input type="radio" name="Gen" id="Hombre">
+                <label for="Hombre">Hombre</label>
+                <input type="radio" name="Gen" id="Mujer">
+                <label for="Mujer">Mujer</label>
+                <input type="radio" name="Gen" id="Otros">
+                <label for="Otros">Otros</label>
+            </div>
+            <div>
+                <label for="Tecnos">Conocimientos: </label>
+                <input type="checkbox" name="Tecnos" id="html">HTML
+                <input type="checkbox" name="Tecnos" id="css">CSS
+                <input type="checkbox" name="Tecnos" id="jv">JAVASCRIPT
+            </div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </form>
+    </article>
+    <footer>
+        <br>
+        <br>
+        <p id="foot" >Derechos reservados @2023</p>
+        
+    </footer>
+    
+</body>
+</html>
